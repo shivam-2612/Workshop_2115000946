@@ -95,7 +95,7 @@ namespace Business_Layer.Service
             using (SmtpClient client = new SmtpClient("smtp.gmail.com"))
             {
                 client.Port = 587;
-                client.Credentials = new NetworkCredential("goyal2003shivam@gmail.com", "vrpf geab xhsa tozx");
+                client.Credentials = new NetworkCredential("goyal2003shivam@gmail.com", "xmhu kqaf xnom tbxw");
                 client.EnableSsl = true;
 
                 MailMessage mail = new MailMessage();
